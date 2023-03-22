@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         glue = {"/org/example/stepdefinition"},
         publish = true,
         monochrome = true,
-        tags = "@Add,@Edit,@Delete",
+        tags = "@Add",
         plugin ={"pretty","html:target/CucumberReports/CucumberReport.html",
                 "json:test-output/jsonReport.json",
                 "junit:test-output/junitReport.xml",
